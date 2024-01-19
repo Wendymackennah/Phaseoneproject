@@ -83,6 +83,7 @@ function setupDonationButton() {
     const button = document.querySelector(".adopt");
     button.textContent = `DONATIONS: ${donationAmount}$`;
   }
+  /*To show the total amount of  donations*/
 
   function incrementDonation() {
     donationAmount += 10;
