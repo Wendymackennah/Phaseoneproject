@@ -75,7 +75,7 @@ function handleFormSubmission() {
       .then((data) => console.log("data", data));
   });
 }
-
+/*function to the donate button*/
 function setupDonationButton() {
   let donationAmount = 0;
 
