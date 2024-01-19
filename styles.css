@@ -40,8 +40,9 @@
 .list-elms li {
   margin-right: 10px;
 }
+/* Change to the desired click color */
 .list-elms li:active {
-  color: blueviolet; /* Change to the desired click color */
+  color: blueviolet;
   transition: color 0.3s; /* Smooth transition effect for color change */
 }
 
