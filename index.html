@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./src/main.js"></script>
+  </head>
+  <body>
+    <nav class="nav-container">
+      <div class="logopaws">
+        <h1 class="logo">PawsforLove</h1>
+        <span> <iconify-icon icon="twemoji:paw-prints"></iconify-icon> </span>
+      </div>
+      <iconify-icon icon="twemoji:paw-prints"></iconify-icon>
+      <div>
+        <ul class="nav-items">
+          <li class="list-elms home-link">Home</li>
+          <li class="list-elms available-link">Available</li>
+          <li class="list-elms register-link">Register</li>
+          <li class="list-elms reviews-link">Reviews</li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home-section">
+      <div id="section-image" class="image">
+        <div class="adopt-container">
+          <h1 class="tag">
+            Experience love, Adopt Transforming Lives One Paw ,at a Time
+          </h1>
+          <button class="adopt">DONATIONS</button>
+          <!-- <button class="adopt">ADOPT ME</button> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="categories">
+      <h2 class="cat-header">Available for adoption</h2>
+      <div id="cats" class="cards"></div>
+    </section>
+
+    <section id="contactUs">
+      <form id="form" class="form">
+        <input type="text" id="username" placeholder="Username" class="input" />
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Email"
+          class="input"
+          required
+        />
+
+        <button type="submit" class="form-btn">Register</button>
+      </form>
+    </section>
+
+    <section id="review-section" class="reviews rev">
+      <div id="reviews" class="reviews">
+        <div class="card">
+          <h2 class="header">Review 1</h2>
+          <p class="rev-paragraph">
+            ⭐⭐⭐⭐⭐ "I had an amazing experience adopting a cat from this
+            website!The adoption process was straightforward, and the staff were
+            not only professional but also genuinely caring.!"
+          </p>
+        </div>
+
+        <div class="card">
+          <h2 class="header">Review 2</h2>
+          <p class="rev-paragraph">
+            ⭐⭐⭐⭐⭐ "I recently adopted the most wonderful cat through this
+            adoption website, and the entire process was seamless. The website's
+            user-friendly interface made it easy to browse through profiles, and
+            the detailed information about each cat helped me find the perfect
+            match for my home!"
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-section contact-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@petstore.com</p>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <div class="footer-section follow-section">
+          <h3>Follow Us</h3>
+          <p>Facebook</p>
+          <p>Twitter</p>
+          <p>Instagram</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Pet Store</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "cats": [
+    {
+      "id": "1",
+      "username": "whiskers",
+      "email": "example@gmail.com"
+    },
+    {
+      "id": "1",
+      "username": "whiskers",
+      "email": "example@gmail.com"
+    },
+    {
+      "username": "user1",
+      "email": "example@email.com",
+      "id": "-JLKImL"
+    },
+    {
+      "username": "",
+      "email": "example@email.com",
+      "id": "Vg30yo3"
+    },
+    {
+      "username": "weddy",
+      "email": "example@example.com",
+      "id": "OAJk_gT"
+    }
+  ]
+}
