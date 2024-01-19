@@ -95,6 +95,7 @@ function setupDonationButton() {
 
   updateDonationText();
 }
+/*to scroll around the pages*/
 function navbarScroll() {
   const homeLink = document.querySelector(".home-link");
   homeLink.addEventListener("click", scroller.bind(null, "home-section"));
@@ -115,7 +116,7 @@ function scroller(sectionId) {
     section.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 }
-
+/*to  call the functions*/
 document.addEventListener("DOMContentLoaded", function () {
   getImages();
   getCards();
