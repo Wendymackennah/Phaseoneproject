@@ -1,5 +1,6 @@
 const url1 = "https://api.thecatapi.com/v1/images/search?limit=10";
 
+/*to display the images*/
 function getImages() {
   fetch(url1)
     .then((response) => response.json())
