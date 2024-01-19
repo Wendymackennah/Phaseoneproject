@@ -50,7 +50,7 @@ function getCards() {
       console.error("Error fetching images:", error);
     });
 }
-
+/*to allow form submission*/
 function handleFormSubmission() {
   const form = document.getElementById("form");
 
