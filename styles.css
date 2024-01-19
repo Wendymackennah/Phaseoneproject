@@ -41,9 +41,10 @@
   margin-right: 10px;
 }
 /* Change to the desired click color */
+/* Smooth transition effect for color change */
 .list-elms li:active {
   color: blueviolet;
-  transition: color 0.3s; /* Smooth transition effect for color change */
+  transition: color 0.3s;
 }
 
 .list-elms:hover {
