@@ -15,7 +15,7 @@ function getImages() {
       console.error("Error fetching images:", error);
     });
 }
-
+/*display the cards*/
 function getCards() {
   fetch(url1)
     .then((response) => response.json())
