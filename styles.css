@@ -46,7 +46,7 @@
   color: blueviolet;
   transition: color 0.3s;
 }
-
+/*hover over nav bar elements*/
 .list-elms:hover {
   transition: color 0.3s;
   color: red;
